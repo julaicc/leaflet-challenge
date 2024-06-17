@@ -61,6 +61,7 @@ d3.json(link).then(function(data) {
         }).addTo(myMap);
     });
 
+    //color segun depth 
     function getColor(depth) {
         return depth > 90 ? '#FF0000' :    
                depth > 70 ? '#FF4500' :    
